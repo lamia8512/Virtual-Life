@@ -1,3 +1,4 @@
+
 @import url('https://fonts.google.com/specimen/Exo+2');
 
 body{
@@ -58,3 +59,70 @@ footer{
 }
 
  
+
+.col_1 {width: 8.333333%;}
+.col_2 {width: 16.666666%;}
+.col_3 {width: 25%;}
+.col_4 {width: 33.333333%;}
+.col_5 {width: 41.666666%;}
+.col_6 {width: 50%;}
+.col_7 {width: 58.333333%;}
+.col_8 {width: 66.666666%;}
+.col_9 {width: 75%;}
+.col_10 {width: 83.333333%;}
+.col_11 {width:91.666666%;}
+.col_12 {width: 100%;}
+
+.container{
+    margin: 0 auto;
+}
+
+body{
+    background: #1759c2;
+    background: linear-gradient(to bottom, rgba(108, 144, 197, 1) 47%,rgba(23, 89, 194, 1) 98%);
+    color: white;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.center{
+    text-align: center;
+}
+
+.displaycenter{
+    display: flex;
+    justify-content: center;
+}
+
+.marginbot{
+    margin-bottom: 100px;
+}
+
+.margintop{
+    margin-top: 50px;
+}
+
+.imgbox{
+    border-radius: 100px;
+}
+
+.imgbox2{
+    border-radius: 5px;
+}
+
+.backh1{
+    background: #1759c2;
+    background: linear-gradient(to bottom, rgba(108, 144, 197, 1) 47%,rgba(23, 89, 194, 1) 98%);
+    border-radius: 10px;
+}
+
+.titrebox{
+    background: #1759c2;
+    background: linear-gradient(to bottom, rgba(108, 144, 197, 1) 47%,rgba(23, 89, 194, 1) 98%);
+    border-radius: 10px;
+}
+
