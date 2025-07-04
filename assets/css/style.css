@@ -1,0 +1,60 @@
+@import url('https://fonts.google.com/specimen/Exo+2');
+
+body{
+    font-family: "Exo-2", sans-serif;
+}
+
+.myHr{
+    background-color: orangered; 
+    width: 100%;
+    height: 12px;
+    margin-top: 40px;
+}
+
+nav{
+    background-color:midnightblue;
+    height: 100px;
+    line-height: 45px;
+}
+
+nav a{
+    color:white;
+    font-size: 17px;
+    text-decoration: none;
+    padding-left:2em;
+    border-right: 1px solid rgb(214, 112, 75);
+    padding-right: 2em;
+}
+
+nav a:last-child{
+    border-right: none;
+}
+
+.left{
+    padding-left: 100px;
+}
+
+i{
+    color: white;
+    margin: 30px;
+    font-size: 25px;
+    padding-left: 4em;
+}
+
+.logos :hover{
+    color: orangered;
+
+}
+
+footer{
+    background: linear-gradient(midnightblue,orangered);
+}
+
+
+.logos a{
+    padding-left: 320px;
+    color: white;
+    text-decoration: none;
+}
+
+ 
