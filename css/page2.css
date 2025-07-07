@@ -135,7 +135,6 @@ i{
 
 footer{
     background: linear-gradient(rgb(183, 0 , 255), cyan);
-    margin-top: 700px;
 }
 
 
@@ -200,5 +199,5 @@ main{
 }
 
 .margintop{
-  margin-top: 450px;
+  margin-top: 480px;
 }
