@@ -83,7 +83,7 @@ nav li {
 nav a { 
       text-decoration: none;
       color: #fcfcfc;
-      font-family: "exo2" , sans-serif; 
+      font-family: "pacifico" , sans-serif; 
       width: 100%;  
 } 
 
@@ -144,6 +144,18 @@ footer{
     text-decoration: none;
 }
 
+main 
+{ 
+  border-top: solid  20px #000;
+  border-bottom: solid  10px #000;
+}
+
+h2 
+{ 
+  text-decoration-color:#000; 
+  text-decoration-thickness:5px; 
+  text-decoration: overline;
+}
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); 
 
 .pacifico-regular {
