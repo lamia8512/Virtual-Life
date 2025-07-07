@@ -5,6 +5,70 @@ body{
     font-family: "Exo-2", sans-serif;
 }
 
+header img {
+      background-image: none;
+      margin-top: -220px;
+      width: 100%;
+      margin-bottom: 50px;
+} 
+
+header p {
+      color: white;
+      margin-top: -680px;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: xx-large;
+      font-family: "exo-2" , sans-serif;     
+} 
+
+header p { 
+    padding-top: 133px;
+}
+
+
+
+nav ul {
+       
+      text-decoration: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;    
+      width: 97%;
+}
+ 
+ 
+nav li {
+      text-decoration: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: midnightblue;
+      padding: 10px 20px;
+      color: #fcfcfc;
+      width: 100%;
+      font-family: "pacifico" , sans-serif;
+}
+ 
+nav a {
+      text-decoration: none;
+      color: #fcfcfc;  
+}
+ 
+nav {
+      width: 100%;
+      top: 40px;
+}
+
+.pop-up button
+{     background-color: midnightblue;
+      bottom: 40px;
+      font-family: "pacifico" , sans-serif;
+}
+.pop-up { 
+    margin-top: 140px;
+} 
+
+
 .myHr{
     background-color: orangered; 
     width: 100%;
@@ -12,13 +76,13 @@ body{
     margin-top: 40px;
 }
 
-nav{
+.navbar{
     background-color:midnightblue;
     height: 100px;
     line-height: 45px;
 }
 
-nav a{
+.navbar a{
     color:white;
     font-size: 17px;
     text-decoration: none;
@@ -26,8 +90,7 @@ nav a{
     border-right: 1px solid rgb(214, 112, 75);
     padding-right: 2em;
 }
-
-nav a:last-child{
+.navbar a:last-child{
     border-right: none;
 }
 
@@ -124,5 +187,44 @@ body{
     background: #1759c2;
     background: linear-gradient(to bottom, rgba(108, 144, 197, 1) 47%,rgba(23, 89, 194, 1) 98%);
     border-radius: 10px;
+} 
+
+
+.ribbon {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
+  font-family: "pacifico",sans-serif;
+}
+.ribbon {
+  --c: orangered ;
+ 
+  padding: .6em 1.3em;
+  aspect-ratio: 1;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  position: relative;
+  z-index: 0;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.ribbon:before {
+  content:"";
+  position: absolute;
+  z-index: -1;
+  inset: 50% 0 auto;
+  aspect-ratio: 1;
+  background: color-mix(in srgb, var(--c), #000 35%);
+  clip-path: polygon(calc(100%/3) 0,calc(200%/3) 0,100% 90%,80% 85%,calc(200%/3) 100%,calc(100%/3) 0,calc(200%/3) 0,calc(100%/3) 100%,20% 85%,0 90%);
+}
+.ribbon:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: radial-gradient(35% 35%,#0000 96%,#0003 97% 99%,#0000) var(--c);
+  clip-path: polygon(100.00% 50.00%,89.66% 55.22%,98.30% 62.94%,86.96% 65.31%,93.30% 75.00%,81.73% 74.35%,85.36% 85.36%,74.35% 81.73%,75.00% 93.30%,65.31% 86.96%,62.94% 98.30%,55.22% 89.66%,50.00% 100.00%,44.78% 89.66%,37.06% 98.30%,34.69% 86.96%,25.00% 93.30%,25.65% 81.73%,14.64% 85.36%,18.27% 74.35%,6.70% 75.00%,13.04% 65.31%,1.70% 62.94%,10.34% 55.22%,0.00% 50.00%,10.34% 44.78%,1.70% 37.06%,13.04% 34.69%,6.70% 25.00%,18.27% 25.65%,14.64% 14.64%,25.65% 18.27%,25.00% 6.70%,34.69% 13.04%,37.06% 1.70%,44.78% 10.34%,50.00% 0.00%,55.22% 10.34%,62.94% 1.70%,65.31% 13.04%,75.00% 6.70%,74.35% 18.27%,85.36% 14.64%,81.73% 25.65%,93.30% 25.00%,86.96% 34.69%,98.30% 37.06%,89.66% 44.78%);
 }
 
